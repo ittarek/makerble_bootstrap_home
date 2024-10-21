@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px) {
+     .show_all_btn {
+          /* background: red !important; */
+          /* margin-left: 10% !important ; */
+          width: 70px !important;
+          text-align: center;
+     }
+        
+}
+

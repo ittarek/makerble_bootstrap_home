@@ -1,15 +1,14 @@
-import React from "react";
 import Container from "react-bootstrap/Container";
+import "./Header.css"
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import InputGroup from "react-bootstrap/InputGroup";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.min.css"; 
-import {  BsLightningFill, BsListUl, BsPersonAdd } from "react-icons/bs";
-import { BiAddToQueue, BiStar } from "react-icons/bi";
+import {  BsLightningFill, BsListUl,  } from "react-icons/bs";
+import {  BiStar } from "react-icons/bi";
 import { FaRegEnvelope } from "react-icons/fa";
 import { IoMdNotifications } from "react-icons/io";
 import { MdAdd } from "react-icons/md";
@@ -71,11 +70,11 @@ const Header = () => {
                 <img src={siteLogo2} alt="" />
                 <span className="bg-white">Yael Adamson-Brown</span>
               </Nav.Link>
-              <Button variant="danger">
+              <Button  variant="danger">
                 {" "}
                 <MdAdd className="text-black"/> Create
               </Button>
-              <Button className="mx-3 " variant="outline-primary">
+              <Button className="update_btn  " variant="outline-primary">
                 <BiStar className="bg-white"/> Upgrade
               </Button>
               <Button variant="outline-primary">

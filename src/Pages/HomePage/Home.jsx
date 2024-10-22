@@ -116,6 +116,7 @@ const Home = () => {
             </Form>
           </Card.Footer>
         </Card>
+
         <Card className="bg-white rounded border-0 px-1">
           <Card.Img
             variant="start"
@@ -125,7 +126,7 @@ const Home = () => {
           />
           <Card.Body
             className="bg-white position-relative"
-            style={{ top: "-100px", right: "20px", marginLeft: "100px" }}
+            style={{ top: "-90px", right: "20px", marginLeft: "100px" }}
           >
             <div className="d-flex justify-content-between align-items-center bg-white">
               <div className="bg-white" style={{fontSize:"10px"}}>

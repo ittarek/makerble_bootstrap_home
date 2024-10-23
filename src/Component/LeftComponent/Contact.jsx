@@ -34,15 +34,15 @@ const Contact = () => {
         </Card.Header>
         <Card.Body className="d-flex flex-column gap-2 bg-white">
           <div className="d-flex align-items-center gap-2 bg-white">
-            <img src={photo} alt="" />
+            <img src={photo} alt="" loading="lazy" />
             <p className="my-auto bg-white">herry</p>
           </div>
           <div className="d-flex align-items-center gap-2 bg-white">
-            <img src={photo} alt="" />
+            <img src={photo} alt="" loading="lazy" />
             <p className="my-auto bg-white">Tariqul</p>
           </div>
           <div className="d-flex align-items-center gap-2 bg-white">
-            <img src={photo} alt="" />
+            <img src={photo} alt="" loading="lazy" />
             <p className="my-auto bg-white">Haresh</p>
           </div>
           <Nav.Link

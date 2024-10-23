@@ -6,8 +6,8 @@ import { BsFunnel, BsQuestionCircleFill } from "react-icons/bs";
 import photo from "../../assets/logo.JPG";
 const Boards = () => {
   return (
-    <main>
-      <Card className="border-0 my-md-0 my-5">
+    <main className="my-3">
+      <Card className="border-0 my-md-0  ">
         <Card.Header className="bg-white">
           <Nav
             variant="pills"
@@ -24,25 +24,25 @@ const Boards = () => {
               {" "}
               <MdAdd className="text-black" /> New Boards
             </button>
-    
           </Nav>
         </Card.Header>
         <Card.Body className="d-flex flex-column gap-2 bg-white">
           <div className="d-flex align-items-center gap-2 bg-white">
-            <img src={photo} alt="" />
+            <img src={photo} alt="" loading="lazy" />
             <p className="my-auto bg-white">herry</p>
           </div>
           <div className="d-flex align-items-center gap-2 bg-white">
-            <img src={photo} alt="" />
+            <img src={photo} alt="" loading="lazy" />
             <p className="my-auto bg-white">Tariqul</p>
           </div>
           <div className="d-flex align-items-center gap-2 bg-white">
-            <img src={photo} alt="" />
+            <img src={photo} alt="" loading="lazy" />
             <p className="my-auto bg-white">Haresh</p>
           </div>
+
           <Nav.Link
-            className=" text-info show_all_btn_board "
-        
+            className=" text-info show_all_btn_board"
+            style={{ marginLeft: "80%" }}
           >
             Show All
           </Nav.Link>

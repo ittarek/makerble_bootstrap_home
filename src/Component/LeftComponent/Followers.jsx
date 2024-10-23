@@ -28,22 +28,22 @@ const Followers = () => {
 
         <div className="img_div bg-white mt-3 py-3 px-3">
           <div>
-            <img src={image1} alt="" />
+            <img src={image1} alt="" loading="lazy" />
           </div>
           <div>
-            <img src={image2} alt="" />
+            <img src={image2} alt="" loading="lazy" />
           </div>
           <div>
-            <img src={image3} alt="" />
+            <img src={image3} alt="" loading="lazy" />
           </div>
           <div>
-            <img src={image4} alt="" />
+            <img src={image4} alt="" loading="lazy" />
           </div>
           <div>
-            <img src={image5} alt="" />
+            <img src={image5} alt="" loading="lazy" />
           </div>
           <div>
-            <img src={image6} alt="" />
+            <img src={image6} alt="" loading="lazy" />
           </div>
         </div>
       </div>{" "}

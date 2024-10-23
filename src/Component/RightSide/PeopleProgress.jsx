@@ -1,11 +1,10 @@
 import "./RightSide.css";
-import Card from "react-bootstrap/Card";
 import Nav from "react-bootstrap/Nav";
 import photo from "../../assets/logo.JPG";
 const PeopleProgress = () => {
   return (
-    <main className="my-3 peopleProgress_container bg-white">
-      <div className="border-0 my-md-0 my-5">
+    <main className="mb-3 peopleProgress_container bg-white px-2 py-2">
+      <div className="border-0 my-md-0 ">
         <div className="d-flex justify-content-between align-items-center px-0 bg-white border-bottom navItems">
           <button className="btn"> People Progress</button>
           <button className="btn btn-sm h-25"> Go to board</button>
@@ -15,7 +14,7 @@ const PeopleProgress = () => {
           {/* div 1 */}
           <div className="d-flex align-items-center justify-content-between bg-white ">
             <div>
-              <img src={photo} alt="" />
+              <img src={photo} alt="" loading="lazy" />
             </div>
             <div className="progress  ">
               Are either your parents living
@@ -35,11 +34,10 @@ const PeopleProgress = () => {
             </div>
             <button className="add_btn">+</button>
           </div>
-
           {/* div 2 */}
           <div className="d-flex align-items-center justify-content-between bg-white">
             <div>
-              <img src={photo} alt="" />
+              <img src={photo} alt="" loading="lazy" />
             </div>
             <div className="progress ">
               Do you belong to any groups in whi...
@@ -62,7 +60,7 @@ const PeopleProgress = () => {
           {/* div 3 */}
           <div className="d-flex align-items-center justify-content-between bg-white">
             <div className="">
-              <img src={photo} alt="" />
+              <img src={photo} alt="" loading="lazy" />
             </div>
             <div className="progress ">
               {" "}
@@ -83,7 +81,13 @@ const PeopleProgress = () => {
             </div>
             <button className="add_btn">+</button>
           </div>
-          <Nav.Link className=" text-info show_all_btn_progress ">
+          {/* <Nav.Link className=" text-info show_all_btn_progress ">
+            Show All
+          </Nav.Link> */}{" "}
+          <Nav.Link
+            className=" text-info show_all_btn_progress"
+            style={{ marginLeft: "80%" }}
+          >
             Show All
           </Nav.Link>
         </div>

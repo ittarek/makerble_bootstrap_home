@@ -31,7 +31,7 @@ const Organizations = () => {
           align-items-center justify-content-between gap-2 bg-white"
           >
             <div className="d-flex bg-white align-items-center gap-2">
-              <img className=" " src={image1} alt="" />
+              <img className=" " src={image1} alt="" loading="lazy" />
               <p className="my-auto bg-white">2021 portfolio</p>
             </div>
             <CiSettings className="bg-white" />

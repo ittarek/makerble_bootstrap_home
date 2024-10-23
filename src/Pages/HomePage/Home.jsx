@@ -1,3 +1,4 @@
+import "./Home.css"
 import { Button, Card, Col, Container, Form, Row } from "react-bootstrap";
 import image from "../../assets/logo.JPG";
 import { BsHeart, BsJournalBookmark } from "react-icons/bs";
@@ -29,7 +30,7 @@ const Home = () => {
         >
           NEWSFEED
         </h4>
-        <Card className="bg-white rounded border-0 px-1 mb-3">
+        <Card className="bg-white rounded border-0 px-1 mb-3 px-2">
           <Card.Img
             variant="start"
             className=""
@@ -40,11 +41,12 @@ const Home = () => {
             className="bg-white position-relative"
             style={{ top: "-100px", right: "20px", marginLeft: "100px" }}
           >
-            <div className="d-flex justify-content-between align-items-center bg-white">
-              <div className="bg-white" style={{fontSize:"10px"}}>
-                <small className="bg-white text-info fs-5">
+            <div className="d-flex justify-content-between align-items-center bg-white news_details">
+              <div className="bg-white" style={{ fontSize: "10px" }}>
+                <small className="bg-white text-info fs-6 ">
                   Yael Adamson-Brown
-                </small> <br />
+                </small>{" "}
+                <br />
                 <small className="bg-white">
                   Activity happened on 4th Dec 2023
                 </small>{" "}
@@ -74,7 +76,7 @@ const Home = () => {
             </div>
           </Card.Body>
           <div
-            className="bg-white"
+            className="bg-white "
             style={{ marginTop: "-100px", marginBottom: "70px" }}
           >
             <small className="bg-white text-success">
@@ -117,7 +119,7 @@ const Home = () => {
           </Card.Footer>
         </Card>
 
-        <Card className="bg-white rounded border-0 px-1">
+        <Card className="bg-white rounded border-0 px-2 ">
           <Card.Img
             variant="start"
             className=""
@@ -128,11 +130,12 @@ const Home = () => {
             className="bg-white position-relative"
             style={{ top: "-90px", right: "20px", marginLeft: "100px" }}
           >
-            <div className="d-flex justify-content-between align-items-center bg-white">
-              <div className="bg-white" style={{fontSize:"10px"}}>
-                <small className="bg-white text-info fs-5">
+            <div className="d-flex justify-content-between align-items-center bg-white news_details">
+              <div className="bg-white" style={{ fontSize: "10px" }}>
+                <small className="bg-white text-info fs-6">
                   Yael Adamson-Brown
-                </small> <br />
+                </small>{" "}
+                <br />
                 <small className="bg-white">
                   Activity happened on 4th Dec 2023
                 </small>{" "}

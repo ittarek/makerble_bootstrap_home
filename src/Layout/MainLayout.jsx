@@ -1,4 +1,3 @@
-import { Container } from 'react-bootstrap';
 import Header from '../SharedComponent/Hearder/Header';
 import Home from './../Pages/HomePage/Home';
 import LeftSide from './LeftSide';
@@ -9,7 +8,7 @@ const MainLayout = () => {
       <main className="">
         <Header />
         <section
-          className="mx-auto row  mt-4">
+          className="mx-auto row  mt-4 ">
           <div className="col-md-3 col-sm-12">
             <LeftSide />
           </div>

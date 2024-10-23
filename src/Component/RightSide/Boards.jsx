@@ -1,4 +1,4 @@
-import "../LeftComponent/LeftComponent.css";
+import "./RightSide.css"
 import Card from "react-bootstrap/Card";
 import Nav from "react-bootstrap/Nav";
 import { MdAdd } from "react-icons/md";
@@ -24,12 +24,7 @@ const Boards = () => {
               {" "}
               <MdAdd className="text-black" /> New Boards
             </button>
-            {/* <Nav.Item>
-              <Nav.Link href="#first" className="btn btn-sm">
-                {" "}
-              
-              </Nav.Link>
-            </Nav.Item> */}
+    
           </Nav>
         </Card.Header>
         <Card.Body className="d-flex flex-column gap-2 bg-white">
@@ -46,7 +41,7 @@ const Boards = () => {
             <p className="my-auto bg-white">Haresh</p>
           </div>
           <Nav.Link
-            className="w-50 text-info show_all_btn "
+            className=" text-info show_all_btn_board "
         
           >
             Show All

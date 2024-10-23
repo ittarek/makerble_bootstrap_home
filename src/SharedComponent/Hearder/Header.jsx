@@ -28,12 +28,12 @@ const Header = () => {
        
           <Navbar.Collapse className="bg-white" id="responsive-navbar-nav">
             {/* Navigation links aligned to the left */}
-            <Nav className="me-auto bg-white">
+            <Nav className="me-auto bg-white nav_tab">
               <Nav.Link href="#features">My Apps</Nav.Link>
               <Nav.Link href="#pricing">Home</Nav.Link>
               <Nav.Link href="#pricing">Explore</Nav.Link>
               {/* Dropdown menu with additional links */}
-              <Form inline className="bg-white">
+              <Form inline className="bg-white ms-lg-3">
                 <Row>
                   <Col className="bg-white" xs="auto">
                     <Form.Control

@@ -1,10 +1,35 @@
 @media screen and (max-width: 600px) {
      .show_all_btn {
-          /* background: red !important; */
-          /* margin-left: 10% !important ; */
-          width: 70px !important;
+              width: 70px !important;
           text-align: center;
      }
-        
+
 }
 
+/* organization */
+.organization img {
+     width: 40px;
+}
+
+
+/* people_container */
+.people_container .img_div {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 10px;
+}
+
+.people_container .img_div div {
+
+     overflow: hidden;
+     width: 40px;
+     height: 40px;
+}
+
+.people_container img {
+     width: 100%;
+     height: 100%;
+     border-radius: 25px;
+     object-fit: cover;
+}

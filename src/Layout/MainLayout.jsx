@@ -2,6 +2,7 @@ import Header from '../SharedComponent/Hearder/Header';
 import Home from './../Pages/HomePage/Home';
 import LeftSide from './LeftSide';
 import RightSide from './RightSide';
+import Footer from './../SharedComponent/Footer/Footer';
 
 const MainLayout = () => {
     return (
@@ -19,6 +20,8 @@ const MainLayout = () => {
             <RightSide />
           </div>
         </section>
+
+        <Footer/>
       </main>
     );
 };
